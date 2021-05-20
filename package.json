@@ -1,0 +1,22 @@
+{
+  "name": "modifypdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -w app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "dayjs": "^1.10.4",
+    "express": "^4.17.1",
+    "pdf-lib": "^1.16.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
